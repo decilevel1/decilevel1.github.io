@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Cairo-Regular;
+    src: url(Cairo-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: Cairo-Regular;
+    /* font-size: 16px; */
+}
+
+body{
+    /* background-color: #f5f5f5; */
+    margin: 16px;
+    overflow: auto;
+}
+ol{
+    margin-right: 5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+.terms{
+    /* margin-right: 5rem; */
+}
+
+.terms ol li {
+    font-style:italic;
+    font-weight: bold;
+}
+.terms p{
+    margin-right: 2rem;
+    
+}
+
+.highlight-word{
+    color: #e99426;
+}
+.highlight-message{
+    color: #091ed3;
+    display: none;
+}
+
+.highlight-word:hover > .highlight-message{
+    display: inline;
+}
+
+
