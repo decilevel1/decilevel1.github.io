@@ -16,7 +16,7 @@ body{
     margin: 16px;
     overflow: auto;
 }
-ol{
+ol, ul{
     margin-right: 5rem;
 }
 
