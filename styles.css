@@ -1,6 +1,6 @@
 @font-face {
     font-family: Cairo-Regular;
-    src: url(Cairo-Regular.ttf);
+    src: url(assets/fonts/Cairo-Regular.ttf);
 }
 
 *{
@@ -19,7 +19,9 @@ body{
 ol, ul{
     margin-right: 5rem;
 }
-
+img {
+    display: block;
+}
 .bold {
     font-weight: bold;
 }
